@@ -1,0 +1,1 @@
+(function(){dust.register("test/fixtures/partial.dust",body_0);function body_0(chk,ctx){return chk.write("<h1>Hello ").reference(ctx.get(["name"], false),ctx,"h").write("! You have ").reference(ctx.get(["count"], false),ctx,"h").write(" new messages.</h1>");}return body_0;})();

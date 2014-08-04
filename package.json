@@ -1,0 +1,53 @@
+{
+  "name": "grunt-dust-compiler",
+  "description": "A grunt task for compiling dust templates.",
+  "version": "0.1.6",
+  "homepage": "https://github.com/matthewbschneider/grunt-dust-compiler",
+  "author": {
+    "name": "Matthew Schneider",
+    "email": "matthewbschneider@gmail.com",
+    "url": "https://github.com/matthewbschneider/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewbschneider/grunt-dust-compiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matthewbschneider/grunt-dust-compiler/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },  
+  "dependencies": {
+    "dustjs-linkedin": "^2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-internal": "~0.4.5",
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "dustjs",
+    "dust",
+    "compile",
+    "compiler"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/matthewbschneider/"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "_id": "grunt-dust-compiler@0.1.6",
+  "_from": "grunt-dust-compiler@~0.1.6"
+}
